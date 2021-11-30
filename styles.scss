@@ -42,15 +42,28 @@ body {
   width: $btn-width;
 }
 
-#card1,#card2,#card3 {
+#card1, #card2, #card3 {
   border-radius: map-get($border-widths, cards-border-radius);
 }
 
-#border-fix1,#border-fix2 {
+#border-fix1, #border-fix2 {
   border-radius: map-get($border-widths, cards-border-radius);
+  color: $white;
 }
 
 #card2 {
   margin-left: $cards-margin;
   margin-right: $cards-margin;
+}
+
+h1,h2 {
+  color: $white;
+}
+
+a {
+  color: $white;
+}
+
+#middle-card-text {
+  color: $white;
 }
